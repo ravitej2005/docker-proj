@@ -11,7 +11,7 @@ app.get('/',(req,res)=>{
 app.get('/home',(req,res)=>{
   console.log("in home route");
   return res.json({
-    "msg" : "node js ...... home api"
+    "msg" : "node js ...... home "
   })
 })
 app.get('/about',(req,res)=>{
